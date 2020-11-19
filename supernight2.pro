@@ -1,4 +1,4 @@
-update=Wednesday, November 18, 2020 at 09:02:07 AM
+update=Thursday, November 19, 2020 at 12:01:11 AM
 version=1
 last_client=kicad
 [general]
@@ -33,11 +33,11 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=empty.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
-LabSize=50
+LabSize=39
 ERC_TestSimilarLabels=1
