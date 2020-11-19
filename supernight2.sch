@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -798,4 +798,15 @@ Wire Wire Line
 	5850 4500 5550 4500
 Wire Wire Line
 	5550 4500 5550 4600
+$Comp
+L Amplifier_Operational:AD797 U?
+U 1 1 5FB5EFED
+P 8100 5100
+F 0 "U?" H 8444 5146 50  0000 L CNN
+F 1 "AD797" H 8444 5055 50  0000 L CNN
+F 2 "" H 8150 5150 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf" H 8150 5250 50  0001 C CNN
+	1    8100 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
