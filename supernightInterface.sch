@@ -14,11 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Rotary_Encoder_Switch SW2
+L Device:Rotary_Encoder_Switch #SW2
 U 1 1 5FD116B2
 P 6000 3200
-F 0 "SW2" H 6000 3567 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 6000 3476 50  0000 C CNN
+F 0 "#SW2" H 6000 3567 50  0000 C CNN
+F 1 "#Rotary_Encoder_Switch" H 6000 3476 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5850 3360 50  0001 C CNN
 F 3 "~" H 6000 3460 50  0001 C CNN
 	1    6000 3200
@@ -59,10 +59,10 @@ ROT1_OUT_A
 Text HLabel 5500 3300 0    39   Input ~ 0
 ROT1_OUT_B
 $Comp
-L Device:Rotary_Encoder_Switch SW3
+L Device:Rotary_Encoder_Switch #SW3
 U 1 1 5FBD6B51
 P 6000 4150
-F 0 "SW3" H 6000 4517 50  0000 C CNN
+F 0 "#SW3" H 6000 4517 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 6000 4426 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5850 4310 50  0001 C CNN
 F 3 "~" H 6000 4410 50  0001 C CNN
@@ -110,7 +110,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 2150 6400 2350
 Wire Wire Line
-	5800 2150 5500 2150
+	5800 2150 5650 2150
 Text Notes 4250 2550 0    39   ~ 0
 Switch for putting ESP into deep sleep.\nThis will shut off 12V supply and save power,\nbut because it is “soft” off it will come back\nand connect to network much faster than “true” off
 Text HLabel 6550 3300 2    39   Input ~ 0
@@ -140,4 +140,109 @@ F 3 "" H 6550 2950 50  0001 C CNN
 	1    6550 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R8
+U 1 1 5FC5F977
+P 5650 1850
+F 0 "R8" H 5720 1896 50  0000 L CNN
+F 1 "10K" H 5720 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 1850 50  0001 C CNN
+F 3 "~" H 5650 1850 50  0001 C CNN
+	1    5650 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2150 5650 2000
+Connection ~ 5650 2150
+Wire Wire Line
+	5650 2150 5500 2150
+Wire Wire Line
+	5650 1700 5650 1650
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5FC60B77
+P 5650 1650
+F 0 "#PWR0106" H 5650 1500 50  0001 C CNN
+F 1 "+3V3" H 5665 1823 50  0000 C CNN
+F 2 "" H 5650 1650 50  0001 C CNN
+F 3 "" H 5650 1650 50  0001 C CNN
+	1    5650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 5FC61755
+P 6550 3900
+F 0 "#PWR0107" H 6550 3750 50  0001 C CNN
+F 1 "+3V3" H 6565 4073 50  0000 C CNN
+F 2 "" H 6550 3900 50  0001 C CNN
+F 3 "" H 6550 3900 50  0001 C CNN
+	1    6550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J2
+U 1 1 5FC624FD
+P 4100 3750
+F 0 "J2" H 4150 4067 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 4150 3976 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical" H 4100 3750 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 3750 3750 0    39   Input ~ 0
+ROT1_OUT_A
+Text HLabel 4550 3750 2    39   Input ~ 0
+ROT1_OUT_B
+Text HLabel 4550 3650 2    39   Input ~ 0
+ROT1_BTN
+Wire Wire Line
+	4550 3650 4400 3650
+Wire Wire Line
+	4550 3750 4400 3750
+Wire Wire Line
+	3750 3750 3900 3750
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 5FC643FE
+P 3750 3350
+F 0 "#PWR0108" H 3750 3200 50  0001 C CNN
+F 1 "+3V3" H 3765 3523 50  0000 C CNN
+F 2 "" H 3750 3350 50  0001 C CNN
+F 3 "" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3650 3750 3650
+Wire Wire Line
+	3750 3650 3750 3350
+Text HLabel 3750 3850 0    39   Input ~ 0
+ROT2_OUT_A
+Text HLabel 4550 3850 2    39   Input ~ 0
+ROT2_OUT_B
+Text HLabel 3750 3950 0    39   Input ~ 0
+ROT2_BTN
+$Comp
+L power:GND #PWR0109
+U 1 1 5FC6513B
+P 4550 4150
+F 0 "#PWR0109" H 4550 3900 50  0001 C CNN
+F 1 "GND" H 4555 3977 50  0000 C CNN
+F 2 "" H 4550 4150 50  0001 C CNN
+F 3 "" H 4550 4150 50  0001 C CNN
+	1    4550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3850 4400 3850
+Wire Wire Line
+	4400 3950 4550 3950
+Wire Wire Line
+	4550 3950 4550 4150
+Wire Wire Line
+	3900 3950 3750 3950
+Wire Wire Line
+	3750 3850 3900 3850
 $EndSCHEMATC

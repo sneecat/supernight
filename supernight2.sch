@@ -177,7 +177,7 @@ Wire Wire Line
 	5850 3500 6000 3500
 Wire Wire Line
 	6300 3500 6600 3500
-Text Notes 6250 3800 0    39   ~ 0
+Text Notes 6900 3600 0    39   ~ 0
 Current limiting\nfor fet signals
 $Comp
 L power:GND #PWR05
@@ -270,41 +270,15 @@ Wire Wire Line
 	1400 2700 1250 2700
 Wire Wire Line
 	1100 2700 1100 2500
-$Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J3
-U 1 1 5FC4447D
-P 9800 1700
-F 0 "J3" H 9850 2017 50  0000 C CNN
-F 1 "Programming Header" H 9850 1926 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 9800 1700 50  0001 C CNN
-F 3 "~" H 9800 1700 50  0001 C CNN
-	1    9800 1700
-	1    0    0    -1  
-$EndComp
-Text GLabel 9050 1600 0    50   Input ~ 0
+Text GLabel 10350 2400 2    50   Input ~ 0
 ESP_EN
-$Comp
-L Device:R R8
-U 1 1 5FC46067
-P 9350 1600
-F 0 "R8" V 9143 1600 50  0000 C CNN
-F 1 "10K" V 9234 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9280 1600 50  0001 C CNN
-F 3 "~" H 9350 1600 50  0001 C CNN
-	1    9350 1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9050 1600 9200 1600
-Wire Wire Line
-	9500 1600 9600 1600
 Text GLabel 6050 1900 2    50   Output ~ 0
 ESP_TXD
 Text GLabel 6050 2100 2    50   Input ~ 0
 ESP_RXD
-Text GLabel 9500 1700 0    50   Input ~ 0
+Text GLabel 9400 2200 0    50   Input ~ 0
 ESP_TX
-Text GLabel 9500 1800 0    50   Output ~ 0
+Text GLabel 9400 2300 0    50   Output ~ 0
 ESP_RX
 Text GLabel 6050 1800 2    50   Input ~ 0
 ESP_BOOT_L
@@ -314,10 +288,8 @@ Wire Wire Line
 	5850 1900 6050 1900
 Wire Wire Line
 	5850 2100 6050 2100
-Text GLabel 10300 1800 2    50   Input ~ 0
+Text GLabel 9400 2100 0    50   Input ~ 0
 ESP_BOOT_L
-Wire Wire Line
-	10100 1800 10300 1800
 Wire Wire Line
 	1400 3100 1250 3100
 Wire Wire Line
@@ -342,42 +314,6 @@ TMS
 Wire Wire Line
 	5850 2600 6050 2600
 $Comp
-L power:GND #PWR016
-U 1 1 5FC63FCF
-P 10600 1550
-F 0 "#PWR016" H 10600 1300 50  0001 C CNN
-F 1 "GND" H 10605 1377 50  0000 C CNN
-F 2 "" H 10600 1550 50  0001 C CNN
-F 3 "" H 10600 1550 50  0001 C CNN
-	1    10600 1550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10100 1700 10600 1700
-Wire Wire Line
-	10600 1700 10600 1550
-$Comp
-L power:+3V3 #PWR014
-U 1 1 5FC66ADE
-P 10350 1550
-F 0 "#PWR014" H 10350 1400 50  0001 C CNN
-F 1 "+3V3" H 10365 1723 50  0000 C CNN
-F 2 "" H 10350 1550 50  0001 C CNN
-F 3 "" H 10350 1550 50  0001 C CNN
-	1    10350 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 1600 10350 1600
-Wire Wire Line
-	10350 1600 10350 1550
-Text Notes 8850 2150 0    50   ~ 0
-NOTE: 3v3 programmer is not isolated from 3v3 internal.\npossible to make circuit which disables 3v3 supply when\nprogrammer is present. also possible to just leave it alone.
-Wire Wire Line
-	9500 1700 9600 1700
-Wire Wire Line
-	9500 1800 9600 1800
-$Comp
 L Connector:TestPoint_Small TP1
 U 1 1 5FC904BC
 P 1900 6600
@@ -393,63 +329,36 @@ Wire Wire Line
 Connection ~ 1900 6800
 Wire Wire Line
 	1900 6800 2000 6800
-$Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J4
-U 1 1 5FCC720D
-P 9800 2650
-F 0 "J4" H 9850 2967 50  0000 C CNN
-F 1 "Debug Header" H 9850 2876 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 9800 2650 50  0001 C CNN
-F 3 "~" H 9800 2650 50  0001 C CNN
-	1    9800 2650
-	1    0    0    -1  
-$EndComp
-Text GLabel 9350 2550 0    50   BiDi ~ 0
+Text GLabel 10350 2000 2    50   BiDi ~ 0
 TMS
-Text GLabel 9350 2650 0    50   3State ~ 0
+Text GLabel 10350 2100 2    50   3State ~ 0
 TCK
-Text GLabel 9350 2750 0    50   Input ~ 0
+Text GLabel 10350 2200 2    50   Input ~ 0
 TDO
-Text GLabel 10300 2750 2    50   Output ~ 0
+Text GLabel 10350 2300 2    50   Output ~ 0
 TDI
-Wire Wire Line
-	10100 2750 10300 2750
-Wire Wire Line
-	9350 2750 9600 2750
-Wire Wire Line
-	9350 2650 9600 2650
-Wire Wire Line
-	9350 2550 9600 2550
 $Comp
 L power:+3V3 #PWR013
 U 1 1 5FCD1EF0
-P 10300 2450
-F 0 "#PWR013" H 10300 2300 50  0001 C CNN
-F 1 "+3V3" H 10315 2623 50  0000 C CNN
-F 2 "" H 10300 2450 50  0001 C CNN
-F 3 "" H 10300 2450 50  0001 C CNN
-	1    10300 2450
+P 9400 1750
+F 0 "#PWR013" H 9400 1600 50  0001 C CNN
+F 1 "+3V3" H 9415 1923 50  0000 C CNN
+F 2 "" H 9400 1750 50  0001 C CNN
+F 3 "" H 9400 1750 50  0001 C CNN
+	1    9400 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 5FCD2838
-P 10550 2450
-F 0 "#PWR015" H 10550 2200 50  0001 C CNN
-F 1 "GND" H 10555 2277 50  0000 C CNN
-F 2 "" H 10550 2450 50  0001 C CNN
-F 3 "" H 10550 2450 50  0001 C CNN
-	1    10550 2450
-	-1   0    0    1   
+P 9400 2550
+F 0 "#PWR015" H 9400 2300 50  0001 C CNN
+F 1 "GND" H 9405 2377 50  0000 C CNN
+F 2 "" H 9400 2550 50  0001 C CNN
+F 3 "" H 9400 2550 50  0001 C CNN
+	1    9400 2550
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 2550 10300 2550
-Wire Wire Line
-	10300 2550 10300 2450
-Wire Wire Line
-	10100 2650 10550 2650
-Wire Wire Line
-	10550 2650 10550 2450
 $Sheet
 S 1400 2500 1250 800 
 U 5FB9A7A3
@@ -662,13 +571,12 @@ U 5FBC8641
 F0 "TX LED" 39
 F1 "3v3tx_led_buff.sch" 39
 $EndSheet
-Text GLabel 3850 2100 3    39   Input ~ 0
+Text GLabel 6150 3700 2    39   Input ~ 0
 ESP_SLP_L
 Wire Wire Line
 	3850 1800 3850 1550
 Wire Wire Line
-	3850 1800 3850 2100
-Connection ~ 3850 1800
+	5850 3700 6150 3700
 Text GLabel 10350 6150 2    39   Output ~ 0
 ESP_SLP_L
 Wire Wire Line
@@ -815,6 +723,39 @@ Wire Wire Line
 Connection ~ 6850 2050
 Wire Wire Line
 	6850 2050 6850 2100
-Text Label 9550 1600 1    39   ~ 0
-ESP_EN_R
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even JTAG1
+U 1 1 5FBEBB1A
+P 9800 2200
+F 0 "JTAG1" H 9850 2617 50  0000 C CNN
+F 1 "Prog Header" H 9850 2526 50  0000 C CNN
+F 2 "Connector_Samtec_HLE_THT:Samtec_HLE-105-02-xx-DV-TE_2x05_P2.54mm_Horizontal" H 9800 2200 50  0001 C CNN
+F 3 "~" H 9800 2200 50  0001 C CNN
+	1    9800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2000 10350 2000
+Wire Wire Line
+	10100 2100 10350 2100
+Wire Wire Line
+	10100 2200 10350 2200
+Wire Wire Line
+	10100 2300 10350 2300
+Wire Wire Line
+	10100 2400 10350 2400
+Wire Wire Line
+	9600 2400 9400 2400
+Wire Wire Line
+	9400 2400 9400 2550
+Wire Wire Line
+	9600 2000 9400 2000
+Wire Wire Line
+	9400 2000 9400 1750
+Wire Wire Line
+	9400 2100 9600 2100
+Wire Wire Line
+	9400 2200 9600 2200
+Wire Wire Line
+	9400 2300 9600 2300
 $EndSCHEMATC
