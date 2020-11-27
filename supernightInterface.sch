@@ -32,6 +32,11 @@ F 0 "SW1" H 6000 2435 50  0000 C CNN
 F 1 "SW_SPST" H 6000 2344 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG" H 6000 2150 50  0001 C CNN
 F 3 "~" H 6000 2150 50  0001 C CNN
+F 4 "C&K" H 0   0   50  0001 C CNN "MFR"
+F 5 "KMR231GLFS" H 0   0   50  0001 C CNN "MPN"
+F 6 "digi" H 0   0   50  0001 C CNN "SPR"
+F 7 "401-1429-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    6000 2150
 	1    0    0    -1  
 $EndComp
@@ -46,18 +51,6 @@ F 3 "" H 5000 3450 50  0001 C CNN
 	1    5000 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 3450 5000 3200
-Wire Wire Line
-	5000 3200 5700 3200
-Wire Wire Line
-	5500 3100 5700 3100
-Wire Wire Line
-	5700 3300 5500 3300
-Text HLabel 5500 3100 0    39   Input ~ 0
-ROT1_OUT_A
-Text HLabel 5500 3300 0    39   Input ~ 0
-ROT1_OUT_B
 $Comp
 L Device:Rotary_Encoder_Switch #SW3
 U 1 1 5FBD6B51
@@ -80,20 +73,6 @@ F 3 "" H 5000 4400 50  0001 C CNN
 	1    5000 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 4400 5000 4150
-Wire Wire Line
-	5000 4150 5700 4150
-Wire Wire Line
-	5500 4050 5700 4050
-Wire Wire Line
-	5700 4250 5500 4250
-Text HLabel 5500 4050 0    39   Input ~ 0
-ROT2_OUT_A
-Text HLabel 5500 4250 0    39   Input ~ 0
-ROT2_OUT_B
-Text HLabel 5500 2150 0    39   Input ~ 0
-ESP_SLP_L
 $Comp
 L power:GND #PWR031
 U 1 1 5FBD7928
@@ -105,30 +84,6 @@ F 3 "" H 6400 2350 50  0001 C CNN
 	1    6400 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 2150 6400 2150
-Wire Wire Line
-	6400 2150 6400 2350
-Wire Wire Line
-	5800 2150 5650 2150
-Text Notes 4250 2550 0    39   ~ 0
-Switch for putting ESP into deep sleep.\nThis will shut off 12V supply and save power,\nbut because it is “soft” off it will come back\nand connect to network much faster than “true” off
-Text HLabel 6550 3300 2    39   Input ~ 0
-ROT1_BTN
-Text HLabel 6550 4250 2    39   Input ~ 0
-ROT2_BTN
-Wire Wire Line
-	6550 4250 6300 4250
-Wire Wire Line
-	6300 3300 6550 3300
-Wire Wire Line
-	6300 3100 6550 3100
-Wire Wire Line
-	6550 3100 6550 2950
-Wire Wire Line
-	6300 4050 6550 4050
-Wire Wire Line
-	6550 4050 6550 3900
 $Comp
 L power:+3V3 #PWR032
 U 1 1 5FBB00B0
@@ -148,16 +103,14 @@ F 0 "R8" H 5720 1896 50  0000 L CNN
 F 1 "10K" H 5720 1805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 1850 50  0001 C CNN
 F 3 "~" H 5650 1850 50  0001 C CNN
+F 4 "TE" H 0   0   50  0001 C CNN "MFR"
+F 5 "CRGP0603F10K" H 0   0   50  0001 C CNN "MPN"
+F 6 "digi" H 0   0   50  0001 C CNN "SPR"
+F 7 "A130428CT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    5650 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5650 2150 5650 2000
-Connection ~ 5650 2150
-Wire Wire Line
-	5650 2150 5500 2150
-Wire Wire Line
-	5650 1700 5650 1650
 $Comp
 L power:+3V3 #PWR0106
 U 1 1 5FC60B77
@@ -188,21 +141,14 @@ F 0 "J2" H 4150 4067 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 4150 3976 50  0000 C CNN
 F 2 "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical" H 4100 3750 50  0001 C CNN
 F 3 "~" H 4100 3750 50  0001 C CNN
+F 4 "jst" H 0   0   50  0001 C CNN "MFR"
+F 5 "BM08B-SRSS-TB(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "digi" H 0   0   50  0001 C CNN "SPR"
+F 7 "455-1794-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    4100 3750
 	1    0    0    -1  
 $EndComp
-Text HLabel 3750 3750 0    39   Input ~ 0
-ROT1_OUT_A
-Text HLabel 4550 3750 2    39   Input ~ 0
-ROT1_OUT_B
-Text HLabel 4550 3650 2    39   Input ~ 0
-ROT1_BTN
-Wire Wire Line
-	4550 3650 4400 3650
-Wire Wire Line
-	4550 3750 4400 3750
-Wire Wire Line
-	3750 3750 3900 3750
 $Comp
 L power:+3V3 #PWR0108
 U 1 1 5FC643FE
@@ -214,16 +160,6 @@ F 3 "" H 3750 3350 50  0001 C CNN
 	1    3750 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 3650 3750 3650
-Wire Wire Line
-	3750 3650 3750 3350
-Text HLabel 3750 3850 0    39   Input ~ 0
-ROT2_OUT_A
-Text HLabel 4550 3850 2    39   Input ~ 0
-ROT2_OUT_B
-Text HLabel 3750 3950 0    39   Input ~ 0
-ROT2_BTN
 $Comp
 L power:GND #PWR0109
 U 1 1 5FC6513B
@@ -235,6 +171,84 @@ F 3 "" H 4550 4150 50  0001 C CNN
 	1    4550 4150
 	1    0    0    -1  
 $EndComp
+Text HLabel 5500 3100 0    39   Input ~ 0
+ROT1_OUT_A
+Text HLabel 5500 3300 0    39   Input ~ 0
+ROT1_OUT_B
+Text HLabel 5500 4050 0    39   Input ~ 0
+ROT2_OUT_A
+Text HLabel 5500 4250 0    39   Input ~ 0
+ROT2_OUT_B
+Text HLabel 5500 2150 0    39   Input ~ 0
+ESP_SLP_L
+Text Notes 4250 2550 0    39   ~ 0
+Switch for putting ESP into deep sleep.\nThis will shut off 12V supply and save power,\nbut because it is “soft” off it will come back\nand connect to network much faster than “true” off
+Text HLabel 6550 3300 2    39   Input ~ 0
+ROT1_BTN
+Text HLabel 6550 4250 2    39   Input ~ 0
+ROT2_BTN
+Text HLabel 3750 3750 0    39   Input ~ 0
+ROT1_OUT_A
+Text HLabel 4550 3750 2    39   Input ~ 0
+ROT1_OUT_B
+Text HLabel 4550 3650 2    39   Input ~ 0
+ROT1_BTN
+Text HLabel 3750 3850 0    39   Input ~ 0
+ROT2_OUT_A
+Text HLabel 4550 3850 2    39   Input ~ 0
+ROT2_OUT_B
+Text HLabel 3750 3950 0    39   Input ~ 0
+ROT2_BTN
+Wire Wire Line
+	5000 3450 5000 3200
+Wire Wire Line
+	5000 3200 5700 3200
+Wire Wire Line
+	5500 3100 5700 3100
+Wire Wire Line
+	5700 3300 5500 3300
+Wire Wire Line
+	5000 4400 5000 4150
+Wire Wire Line
+	5000 4150 5700 4150
+Wire Wire Line
+	5500 4050 5700 4050
+Wire Wire Line
+	5700 4250 5500 4250
+Wire Wire Line
+	6200 2150 6400 2150
+Wire Wire Line
+	6400 2150 6400 2350
+Wire Wire Line
+	5800 2150 5650 2150
+Wire Wire Line
+	6550 4250 6300 4250
+Wire Wire Line
+	6300 3300 6550 3300
+Wire Wire Line
+	6300 3100 6550 3100
+Wire Wire Line
+	6550 3100 6550 2950
+Wire Wire Line
+	6300 4050 6550 4050
+Wire Wire Line
+	6550 4050 6550 3900
+Wire Wire Line
+	5650 2150 5650 2000
+Wire Wire Line
+	5650 2150 5500 2150
+Wire Wire Line
+	5650 1700 5650 1650
+Wire Wire Line
+	4550 3650 4400 3650
+Wire Wire Line
+	4550 3750 4400 3750
+Wire Wire Line
+	3750 3750 3900 3750
+Wire Wire Line
+	3900 3650 3750 3650
+Wire Wire Line
+	3750 3650 3750 3350
 Wire Wire Line
 	4550 3850 4400 3850
 Wire Wire Line
@@ -245,4 +259,5 @@ Wire Wire Line
 	3900 3950 3750 3950
 Wire Wire Line
 	3750 3850 3900 3850
+Connection ~ 5650 2150
 $EndSCHEMATC
