@@ -113,25 +113,6 @@ F 11 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
-U 1 1 5FB5AD23
-P 2900 6950
-F 0 "C3" H 3015 6996 50  0000 L CNN
-F 1 "330uF" H 3015 6905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_10x10.5" H 2938 6800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/ABA0000C1172-947558.pdf~" H 2900 6950 50  0001 C CNN
-F 4 " 667-EEE-FC1V331P " H 2900 6950 50  0001 C CNN "MOUSER"
-F 5 "DIGI" H 2900 6950 50  0001 C CNN "Supplier"
-F 6 "poop" H 2900 6950 50  0001 C CNN "Supplier PN"
-F 7 "panasonic" H 0   0   50  0001 C CNN "MFR"
-F 8 "EEE-FC1V331P " H 0   0   50  0001 C CNN "MPN"
-F 9 "digi" H 0   0   50  0001 C CNN "SPR"
-F 10 "PCE4029CT-ND" H 0   0   50  0001 C CNN "SPN"
-F 11 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    2900 6950
-	1    0    0    -1  
-$EndComp
-$Comp
 L RF_Module:ESP32-WROOM-32 U1
 U 1 1 5FB7D1AA
 P 5250 3000
@@ -513,7 +494,7 @@ Text Notes 1550 6400 0    50   ~ 0
 Text Notes 500  7750 0    98   ~ 0
 INPUT
 Text GLabel 3850 1550 1    50   Input ~ 0
-ESP_EN
+3V3_PWGD
 Text GLabel 6950 3500 2    39   Output ~ 0
 CH1_SIG_R
 Text GLabel 6950 3600 2    39   Output ~ 0
@@ -527,7 +508,7 @@ Text GLabel 1200 2900 0    50   Input ~ 0
 Text GLabel 2800 2900 2    50   Output ~ 0
 12v_PWGD
 Text GLabel 2800 3100 2    50   Output ~ 0
-ESP_EN
+3V3_PWGD
 Text GLabel 6050 3100 2    50   Input ~ 0
 12v_PWGD
 Text GLabel 10350 2400 2    50   Input ~ 0
@@ -654,10 +635,6 @@ Wire Wire Line
 	2000 6800 2450 6800
 Wire Wire Line
 	2000 7100 2450 7100
-Wire Wire Line
-	2450 6800 2900 6800
-Wire Wire Line
-	2450 7100 2900 7100
 Wire Wire Line
 	1200 2900 1400 2900
 Wire Wire Line
@@ -832,8 +809,6 @@ Connection ~ 5250 1150
 Connection ~ 5600 1450
 Connection ~ 2000 6800
 Connection ~ 2000 7100
-Connection ~ 2450 6800
-Connection ~ 2450 7100
 Connection ~ 6150 4100
 Connection ~ 1250 2700
 Connection ~ 1900 6800
