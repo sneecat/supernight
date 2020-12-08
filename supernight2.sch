@@ -200,33 +200,6 @@ F 3 "" H 4950 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
-U 1 1 5FB9D72B
-P 6150 4250
-F 0 "R5" H 6220 4296 50  0000 L CNN
-F 1 "100K" H 6220 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 4250 50  0001 C CNN
-F 3 "~" H 6150 4250 50  0001 C CNN
-F 4 "TE" H 0   0   50  0001 C CNN "MFR"
-F 5 "CRGCQ0603J100K" H 0   0   50  0001 C CNN "MPN"
-F 6 "digi" H 0   0   50  0001 C CNN "SPR"
-F 7 "A130103CT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    6150 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5FB9F0D4
-P 6150 4550
-F 0 "#PWR08" H 6150 4300 50  0001 C CNN
-F 1 "GND" H 6155 4377 50  0000 C CNN
-F 2 "" H 6150 4550 50  0001 C CNN
-F 3 "" H 6150 4550 50  0001 C CNN
-	1    6150 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VDD #PWR01
 U 1 1 5FC3F42F
 P 1100 2500
@@ -306,33 +279,33 @@ $EndComp
 $Comp
 L Device:R R2
 U 1 1 5FB83532
-P 4550 2850
-F 0 "R2" H 4620 2896 50  0000 L CNN
-F 1 "4.7K" H 4620 2805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 2850 50  0001 C CNN
-F 3 "~" H 4550 2850 50  0001 C CNN
-F 4 "yageo" H 0   0   50  0001 C CNN "MFR"
-F 5 "RC0603FR-074K7L " H 0   0   50  0001 C CNN "MPN"
-F 6 "digi" H 0   0   50  0001 C CNN "SPR"
-F 7 "311-4.70KHRCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    4550 2850
+P 4150 3550
+F 0 "R2" H 4220 3596 50  0000 L CNN
+F 1 "4.7K" H 4220 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 3550 50  0001 C CNN
+F 3 "~" H 4150 3550 50  0001 C CNN
+F 4 "yageo" H -400 700 50  0001 C CNN "MFR"
+F 5 "RC0603FR-074K7L " H -400 700 50  0001 C CNN "MPN"
+F 6 "digi" H -400 700 50  0001 C CNN "SPR"
+F 7 "311-4.70KHRCT-ND" H -400 700 50  0001 C CNN "SPN"
+F 8 "-" H -400 700 50  0001 C CNN "SPURL"
+	1    4150 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5FB83D8C
-P 4250 2750
-F 0 "R1" H 4320 2796 50  0000 L CNN
-F 1 "4.7K" H 4320 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 2750 50  0001 C CNN
-F 3 "~" H 4250 2750 50  0001 C CNN
-F 4 "yageo" H 0   0   50  0001 C CNN "MFR"
-F 5 "RC0603FR-074K7L " H 0   0   50  0001 C CNN "MPN"
-F 6 "digi" H 0   0   50  0001 C CNN "SPR"
-F 7 "311-4.70KHRCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    4250 2750
+P 3850 3550
+F 0 "R1" H 3920 3596 50  0000 L CNN
+F 1 "4.7K" H 3920 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3780 3550 50  0001 C CNN
+F 3 "~" H 3850 3550 50  0001 C CNN
+F 4 "yageo" H -400 800 50  0001 C CNN "MFR"
+F 5 "RC0603FR-074K7L " H -400 800 50  0001 C CNN "MPN"
+F 6 "digi" H -400 800 50  0001 C CNN "SPR"
+F 7 "311-4.70KHRCT-ND" H -400 800 50  0001 C CNN "SPN"
+F 8 "-" H -400 800 50  0001 C CNN "SPURL"
+	1    3850 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -420,12 +393,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR04
 U 1 1 5FBB8969
-P 4400 2350
-F 0 "#PWR04" H 4400 2200 50  0001 C CNN
-F 1 "+3V3" H 4415 2523 50  0000 C CNN
-F 2 "" H 4400 2350 50  0001 C CNN
-F 3 "" H 4400 2350 50  0001 C CNN
-	1    4400 2350
+P 4000 3050
+F 0 "#PWR04" H 4000 2900 50  0001 C CNN
+F 1 "+3V3" H 4015 3223 50  0000 C CNN
+F 2 "" H 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0001 C CNN
+	1    4000 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -438,24 +411,6 @@ F 2 "" H 9350 1000 50  0001 C CNN
 F 3 "" H 9350 1000 50  0001 C CNN
 	1    9350 1000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J1
-U 1 1 5FC4A1CA
-P 1000 6900
-F 0 "J1" V 1096 6979 50  0000 L CNN
-F 1 "43045-0421" V 1005 6979 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0421_2x02-1MP_P3.00mm_Horizontal" H 1000 6900 50  0001 C CNN
-F 3 "~" H 1000 6900 50  0001 C CNN
-F 4 "WM1790-ND" H 1000 6900 50  0001 C CNN "DIGIKEY"
-F 5 " 538-43045-0412 " H 1000 6900 50  0001 C CNN "MOUSER"
-F 6 "molex" H 0   0   50  0001 C CNN "MFR"
-F 7 "43045-0421" H 0   0   50  0001 C CNN "MPN"
-F 8 "digi" H 0   0   50  0001 C CNN "SPR"
-F 9 "WM2673-ND" H 0   0   50  0001 C CNN "SPN"
-F 10 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    1000 6900
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C4
@@ -499,9 +454,7 @@ Text GLabel 6950 3500 2    39   Output ~ 0
 CH1_SIG_R
 Text GLabel 6950 3600 2    39   Output ~ 0
 CH2_SIG_R
-Text Notes 6900 3600 0    39   ~ 0
-Current limiting\nfor fet signals
-Text GLabel 6500 4100 2    50   Output ~ 0
+Text GLabel 6500 3000 2    50   Output ~ 0
 12v_EN
 Text GLabel 1200 2900 0    50   Input ~ 0
 12v_EN
@@ -545,11 +498,11 @@ Text GLabel 9650 1150 0    39   BiDi ~ 0
 OLED_SDA
 Text GLabel 9650 1250 0    39   UnSpc ~ 0
 OLED_SCL
-Text GLabel 4150 3100 0    39   BiDi ~ 0
+Text GLabel 6950 3200 2    39   BiDi ~ 0
 OLED_SDA
-Text GLabel 4150 3000 0    39   UnSpc ~ 0
+Text GLabel 6950 3300 2    39   UnSpc ~ 0
 OLED_SCL
-Text GLabel 6150 3700 2    39   Input ~ 0
+Text GLabel 7000 3700 2    39   Input ~ 0
 ESP_SLP_L
 Text GLabel 10350 6150 2    39   Output ~ 0
 ESP_SLP_L
@@ -571,9 +524,9 @@ Text GLabel 9150 4200 0    39   Input ~ 0
 CH2_SIG_R
 Text GLabel 6950 3400 2    39   Input ~ 0
 BTN_SEL_2
-Text GLabel 6950 3300 2    39   Input ~ 0
+Text GLabel 6950 2900 2    39   Input ~ 0
 ROT2_A
-Text GLabel 6950 3200 2    39   Input ~ 0
+Text GLabel 6950 2800 2    39   Input ~ 0
 ROT2_B
 Text GLabel 10050 5750 2    39   Input ~ 0
 ROT2_A
@@ -583,14 +536,12 @@ Text GLabel 8200 5750 0    39   Input ~ 0
 BTN_SEL_2
 Text GLabel 9200 3650 0    39   Output ~ 0
 TEMP_FB
-Text GLabel 6050 3000 2    39   Input ~ 0
+Text GLabel 7000 4100 2    39   Input ~ 0
 TEMP_FB
 Text Label 6950 1550 0    39   ~ 0
 VDD_SENSE
 Text Label 6950 2050 0    39   ~ 0
 VDD_SENSE_R
-Wire Wire Line
-	1500 6800 1700 6800
 Wire Wire Line
 	1700 6800 1700 6650
 Wire Wire Line
@@ -626,10 +577,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 4400 4950 4500
 Wire Wire Line
-	5850 4100 6150 4100
-Wire Wire Line
-	6150 4400 6150 4550
-Wire Wire Line
 	2000 7100 1700 7100
 Wire Wire Line
 	2000 6800 2450 6800
@@ -637,8 +584,6 @@ Wire Wire Line
 	2000 7100 2450 7100
 Wire Wire Line
 	1200 2900 1400 2900
-Wire Wire Line
-	6500 4100 6150 4100
 Wire Wire Line
 	2800 3100 2650 3100
 Wire Wire Line
@@ -676,19 +621,9 @@ Wire Wire Line
 Wire Wire Line
 	9650 1150 9900 1150
 Wire Wire Line
-	4150 3000 4550 3000
+	3850 3400 3850 3150
 Wire Wire Line
-	4550 3000 4650 3000
-Wire Wire Line
-	4150 3100 4250 3100
-Wire Wire Line
-	4250 2900 4250 3100
-Wire Wire Line
-	4250 3100 4650 3100
-Wire Wire Line
-	4250 2600 4250 2450
-Wire Wire Line
-	4550 2450 4550 2700
+	4150 3150 4150 3400
 Wire Wire Line
 	5850 2000 6850 2000
 Wire Wire Line
@@ -702,15 +637,15 @@ Wire Wire Line
 Wire Wire Line
 	6850 1200 6850 1100
 Wire Wire Line
-	4250 2450 4400 2450
+	3850 3150 4000 3150
 Wire Wire Line
-	4400 2450 4400 2350
+	4000 3150 4000 3050
 Wire Wire Line
-	4400 2450 4550 2450
+	4000 3150 4150 3150
 Wire Wire Line
 	3850 1800 3850 1550
 Wire Wire Line
-	5850 3700 6150 3700
+	5850 3700 7000 3700
 Wire Wire Line
 	10350 6150 9800 6150
 Wire Wire Line
@@ -732,8 +667,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 3400 5850 3400
 Wire Wire Line
-	6950 3300 5850 3300
-Wire Wire Line
 	6950 3200 5850 3200
 Wire Wire Line
 	8200 5750 8450 5750
@@ -741,18 +674,6 @@ Wire Wire Line
 	10050 5850 9800 5850
 Wire Wire Line
 	9800 5750 10050 5750
-Wire Wire Line
-	5850 3000 6050 3000
-Wire Wire Line
-	1500 6800 1500 6600
-Wire Wire Line
-	1500 6600 1100 6600
-Wire Wire Line
-	1100 6600 1000 6600
-Wire Wire Line
-	1000 7100 1100 7100
-Wire Wire Line
-	1100 7100 1700 7100
 Wire Wire Line
 	9450 3650 9200 3650
 Wire Wire Line
@@ -803,26 +724,17 @@ Wire Wire Line
 	9400 2100 9600 2100
 Wire Wire Line
 	9400 2300 9600 2300
-Connection ~ 1700 6800
-Connection ~ 1700 7100
 Connection ~ 5250 1150
 Connection ~ 5600 1450
 Connection ~ 2000 6800
 Connection ~ 2000 7100
-Connection ~ 6150 4100
 Connection ~ 1250 2700
 Connection ~ 1900 6800
-Connection ~ 4550 3000
-Connection ~ 4250 3100
 Connection ~ 6850 2000
-Connection ~ 4400 2450
-Connection ~ 1100 6600
-Connection ~ 1100 7100
+Connection ~ 4000 3150
 Connection ~ 5400 1150
 Connection ~ 6850 1550
 Connection ~ 6850 2050
-NoConn ~ 5850 2800
-NoConn ~ 5850 2900
 NoConn ~ 5850 2300
 NoConn ~ 5850 2200
 Wire Wire Line
@@ -839,4 +751,137 @@ Text Label 5900 3500 0    39   ~ 0
 CH1_SIG
 Text Label 5900 3600 0    39   ~ 0
 CH2_SIG
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FD13685
+P 7750 1150
+F 0 "H1" H 7850 1199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 1108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" H 7750 1150 50  0001 C CNN
+F 3 "~" H 7750 1150 50  0001 C CNN
+	1    7750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FD13E6C
+P 7750 1500
+F 0 "H2" H 7850 1549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 1458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" H 7750 1500 50  0001 C CNN
+F 3 "~" H 7750 1500 50  0001 C CNN
+	1    7750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FD1451D
+P 7750 1850
+F 0 "H3" H 7850 1899 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 1808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" H 7750 1850 50  0001 C CNN
+F 3 "~" H 7750 1850 50  0001 C CNN
+	1    7750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FD14AAC
+P 7750 2200
+F 0 "H4" H 7850 2249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 2158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" H 7750 2200 50  0001 C CNN
+F 3 "~" H 7750 2200 50  0001 C CNN
+	1    7750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5FD15974
+P 7600 2400
+F 0 "#PWR0110" H 7600 2150 50  0001 C CNN
+F 1 "GND" H 7605 2227 50  0000 C CNN
+F 2 "" H 7600 2400 50  0001 C CNN
+F 3 "" H 7600 2400 50  0001 C CNN
+	1    7600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2300 7600 2300
+Wire Wire Line
+	7600 2300 7600 2400
+Wire Wire Line
+	7750 1250 7600 1250
+Wire Wire Line
+	7600 1250 7600 1600
+Connection ~ 7600 2300
+Wire Wire Line
+	7750 1600 7600 1600
+Connection ~ 7600 1600
+Wire Wire Line
+	7600 1600 7600 1950
+Wire Wire Line
+	7750 1950 7600 1950
+Connection ~ 7600 1950
+Wire Wire Line
+	7600 1950 7600 2300
+Text GLabel 3750 3950 0    39   BiDi ~ 0
+OLED_SDA
+Text GLabel 3750 3850 0    39   UnSpc ~ 0
+OLED_SCL
+Wire Wire Line
+	3750 3950 4150 3950
+Wire Wire Line
+	4150 3950 4150 3700
+Wire Wire Line
+	3750 3850 3850 3850
+Wire Wire Line
+	3850 3850 3850 3700
+NoConn ~ 4650 3100
+NoConn ~ 4650 3000
+$Comp
+L power:GND #PWR08
+U 1 1 5FB9F0D4
+P 3750 4850
+F 0 "#PWR08" H 3750 4600 50  0001 C CNN
+F 1 "GND" H 3755 4677 50  0000 C CNN
+F 2 "" H 3750 4850 50  0001 C CNN
+F 3 "" H 3750 4850 50  0001 C CNN
+	1    3750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FB9D72B
+P 3750 4600
+F 0 "R5" H 3820 4646 50  0000 L CNN
+F 1 "100K" H 3820 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3680 4600 50  0001 C CNN
+F 3 "~" H 3750 4600 50  0001 C CNN
+F 4 "TE" H -2400 350 50  0001 C CNN "MFR"
+F 5 "CRGCQ0603J100K" H -2400 350 50  0001 C CNN "MPN"
+F 6 "digi" H -2400 350 50  0001 C CNN "SPR"
+F 7 "A130103CT-ND" H -2400 350 50  0001 C CNN "SPN"
+F 8 "-" H -2400 350 50  0001 C CNN "SPURL"
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3000 6500 3000
+Text GLabel 3800 4300 2    50   Output ~ 0
+12v_EN
+Wire Wire Line
+	3800 4300 3750 4300
+Wire Wire Line
+	3750 4300 3750 4450
+Wire Wire Line
+	3750 4850 3750 4750
+Wire Wire Line
+	5850 3300 6950 3300
+Wire Wire Line
+	5850 4100 7000 4100
+Wire Wire Line
+	6950 2900 5850 2900
+Wire Wire Line
+	5850 2800 6950 2800
 $EndSCHEMATC
