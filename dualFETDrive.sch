@@ -262,34 +262,6 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J5
-U 1 1 5FC310BE
-P 7400 3200
-F 0 "J5" V 7404 3280 50  0000 L CNN
-F 1 "43045-0421" V 7495 3280 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0421_2x02-1MP_P3.00mm_Horizontal" H 7400 3200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450221_sd.pdf" H 7400 3200 50  0001 C CNN
-F 4 "WM1790-ND" H 7400 3200 50  0001 C CNN "DIGIKEY"
-F 5 "molex" H 0   0   50  0001 C CNN "MFR"
-F 6 "43045-0421" H 0   0   50  0001 C CNN "MPN"
-F 7 "digi" H 0   0   50  0001 C CNN "SPR"
-F 8 "WM2673-ND" H 0   0   50  0001 C CNN "SPN"
-F 9 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    7400 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VDD #PWR042
-U 1 1 5FC33430
-P 7300 2800
-F 0 "#PWR042" H 7300 2650 50  0001 C CNN
-F 1 "VDD" H 7315 2973 50  0000 C CNN
-F 2 "" H 7300 2800 50  0001 C CNN
-F 3 "" H 7300 2800 50  0001 C CNN
-	1    7300 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Thermistor_NTC TH1
 U 1 1 5FC5CFA9
 P 6000 2050
@@ -459,24 +431,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 3400 6700 3500
 Wire Wire Line
-	6700 3500 7300 3500
-Wire Wire Line
-	7050 4150 7050 3600
-Wire Wire Line
-	6200 4150 7050 4150
-Wire Wire Line
-	7400 3600 7400 3500
-Wire Wire Line
-	7050 3600 7400 3600
-Wire Wire Line
-	7300 2800 7300 2900
-Wire Wire Line
-	7400 3000 7400 2900
-Wire Wire Line
-	7400 2900 7300 2900
-Wire Wire Line
-	7300 2900 7300 3000
-Wire Wire Line
 	6000 1450 6000 1250
 Wire Wire Line
 	6000 1900 6000 1800
@@ -501,7 +455,6 @@ Connection ~ 6200 3900
 Connection ~ 4550 3250
 Connection ~ 4550 3400
 Connection ~ 5550 3600
-Connection ~ 7300 2900
 Connection ~ 6000 1800
 Connection ~ 6500 3400
 Connection ~ 3900 3850
@@ -515,4 +468,67 @@ Wire Wire Line
 Connection ~ 5050 4050
 Wire Wire Line
 	5050 4050 5100 4050
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 5FD079FF
+P 7900 3950
+F 0 "J1" H 7792 3425 50  0000 C CNN
+F 1 "Conn_01x06_Female" H 7792 3516 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal" H 7900 3950 50  0001 C CNN
+F 3 "~" H 7900 3950 50  0001 C CNN
+	1    7900 3950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7150 3500 7150 3650
+Wire Wire Line
+	7150 3650 7700 3650
+Wire Wire Line
+	6700 3500 7150 3500
+Wire Wire Line
+	7350 4150 7350 3850
+Wire Wire Line
+	7350 3850 7700 3850
+Wire Wire Line
+	6200 4150 7350 4150
+$Comp
+L power:VDD #PWR0111
+U 1 1 5FD0E282
+P 7600 3200
+F 0 "#PWR0111" H 7600 3050 50  0001 C CNN
+F 1 "VDD" H 7615 3373 50  0000 C CNN
+F 2 "" H 7600 3200 50  0001 C CNN
+F 3 "" H 7600 3200 50  0001 C CNN
+	1    7600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3950 7600 3950
+Wire Wire Line
+	7600 3950 7600 3750
+Wire Wire Line
+	7700 3750 7600 3750
+Connection ~ 7600 3750
+Wire Wire Line
+	7600 3750 7600 3200
+Wire Wire Line
+	7700 4150 7600 4150
+Wire Wire Line
+	7600 4150 7600 3950
+Connection ~ 7600 3950
+$Comp
+L power:GND #PWR0112
+U 1 1 5FD10D90
+P 7550 4400
+F 0 "#PWR0112" H 7550 4150 50  0001 C CNN
+F 1 "GND" H 7555 4227 50  0000 C CNN
+F 2 "" H 7550 4400 50  0001 C CNN
+F 3 "" H 7550 4400 50  0001 C CNN
+	1    7550 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4050 7550 4050
+Wire Wire Line
+	7550 4050 7550 4400
 $EndSCHEMATC
