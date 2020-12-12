@@ -531,4 +531,64 @@ Wire Wire Line
 	7700 4050 7550 4050
 Wire Wire Line
 	7550 4050 7550 4400
+$Comp
+L Mechanical:Heatsink_Pad_2Pin HS2
+U 1 1 5FD5598F
+P 7800 1550
+F 0 "HS2" H 7988 1589 50  0000 L CNN
+F 1 "Thermal Wick" H 7988 1498 50  0000 L CNN
+F 2 "" H 7812 1500 50  0001 C CNN
+F 3 "~" H 7812 1500 50  0001 C CNN
+	1    7800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad_2Pin HS1
+U 1 1 5FD56944
+P 7800 2100
+F 0 "HS1" H 7988 2139 50  0000 L CNN
+F 1 "Thermal Wick" H 7988 2048 50  0000 L CNN
+F 2 "" H 7812 2050 50  0001 C CNN
+F 3 "~" H 7812 2050 50  0001 C CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 1700 0    39   Input ~ 0
+LED_L_1
+Wire Wire Line
+	7400 1700 7700 1700
+Wire Wire Line
+	7700 1700 7700 1650
+Text GLabel 7400 2300 0    39   Input ~ 0
+LED_L_2
+Wire Wire Line
+	7700 2200 7700 2300
+Wire Wire Line
+	7700 2300 7400 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5FD5B3CC
+P 7900 2350
+F 0 "#PWR?" H 7900 2100 50  0001 C CNN
+F 1 "GND" H 7905 2177 50  0000 C CNN
+F 2 "" H 7900 2350 50  0001 C CNN
+F 3 "" H 7900 2350 50  0001 C CNN
+	1    7900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD5B737
+P 7900 1750
+F 0 "#PWR?" H 7900 1500 50  0001 C CNN
+F 1 "GND" H 7905 1577 50  0000 C CNN
+F 2 "" H 7900 1750 50  0001 C CNN
+F 3 "" H 7900 1750 50  0001 C CNN
+	1    7900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1650 7900 1750
+Wire Wire Line
+	7900 2200 7900 2350
 $EndSCHEMATC
