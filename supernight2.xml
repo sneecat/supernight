@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Andy\Nextcloud\projects\supernight\supernight2.sch</source>
-    <date>11/22/2020 6:19:08 PM</date>
+    <date>12/14/2020 8:44:06 AM</date>
     <tool>Eeschema (5.1.8)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -76,7 +76,14 @@
       <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/315/ABA0000C1172-947558.pdf~</datasheet>
       <fields>
+        <field name="MFR">panasonic</field>
         <field name="MOUSER"> 667-EEE-FC1V331P </field>
+        <field name="MPN">EEE-FC1V331P </field>
+        <field name="SPN">PCE4029CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+        <field name="Supplier">DIGI</field>
+        <field name="Supplier PN">poop</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -87,22 +94,18 @@
       <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/315/ABA0000C1172-947558.pdf~</datasheet>
       <fields>
+        <field name="MFR">panasonic</field>
         <field name="MOUSER"> 667-EEE-FC1V331P </field>
+        <field name="MPN">EEE-FC1V331P </field>
+        <field name="SPN">PCE4029CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+        <field name="Supplier">DIGI</field>
+        <field name="Supplier PN">poop</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FB59101</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>330uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/315/ABA0000C1172-947558.pdf~</datasheet>
-      <fields>
-        <field name="MOUSER"> 667-EEE-FC1V331P </field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FB5AD23</tstamp>
     </comp>
     <comp ref="U1">
       <value>ESP32</value>
@@ -110,23 +113,27 @@
       <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">1965-ESP32-S2-WROOM-ITR-ND</field>
+        <field name="MFR">espressif</field>
+        <field name="MPN">ESP32-S2-WROOM-I</field>
+        <field name="SPN">1965-ESP32-S2-WROOM-ICT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="RF_Module" part="ESP32-WROOM-32" description="RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FB7D1AA</tstamp>
     </comp>
-    <comp ref="C4">
-      <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FB8F6AE</tstamp>
-    </comp>
     <comp ref="C5">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="SPN">311-1456-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FB9499D</tstamp>
@@ -135,6 +142,13 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGP0603F1K0</field>
+        <field name="SPN">A130416CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FBCE1B3</tstamp>
@@ -143,58 +157,45 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGP0603F1K0</field>
+        <field name="SPN">A130416CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FBCEAD2</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>100K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FB9D72B</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>Programming Header</value>
-      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x03_Counter_Clockwise" description="Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FC4447D</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FC46067</tstamp>
     </comp>
     <comp ref="TP1">
       <value>VIN</value>
       <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FC904BC</tstamp>
     </comp>
-    <comp ref="J4">
-      <value>Debug Header</value>
-      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x03_Counter_Clockwise" description="Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FCC720D</tstamp>
-    </comp>
-    <comp ref="J2">
+    <comp ref="OLED1">
       <value>OLED Connector</value>
-      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="DIGIKEY">455-1804-2-ND</field>
+        <field name="MFR">jst</field>
+        <field name="MPN">BM04B-SRSS-TB(LF)(SN)&#xD;</field>
+        <field name="SPN">455-1790-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x03_Counter_Clockwise" description="Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FB73F06</tstamp>
     </comp>
@@ -202,6 +203,13 @@
       <value>4.7K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">RC0603FR-074K7L </field>
+        <field name="SPN">311-4.70KHRCT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FB83532</tstamp>
@@ -210,6 +218,13 @@
       <value>4.7K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">RC0603FR-074K7L </field>
+        <field name="SPN">311-4.70KHRCT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FB83D8C</tstamp>
@@ -218,6 +233,13 @@
       <value>1.4K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Stackpole Electronics Inc</field>
+        <field name="MPN">RMCF0603FT1K40</field>
+        <field name="SPN">738-RMCF0603FT1K40CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FBB80B4</tstamp>
@@ -226,6 +248,13 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGP0603F10K</field>
+        <field name="SPN">A130428CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FBBB775</tstamp>
@@ -236,51 +265,149 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="DIGIKEY">1655-1585-2-ND</field>
+        <field name="MFR">SMC Diode Solutions</field>
+        <field name="MPN">SK26TR</field>
+        <field name="SPN">1655-1588-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FBC9B05</tstamp>
     </comp>
-    <comp ref="J1">
-      <value>POWER IN</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical</footprint>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="DIGIKEY">WM1790-ND</field>
-        <field name="MOUSER"> 538-43045-0412 </field>
+        <field name="MFR">avx</field>
+        <field name="MPN">1206YD106KAT2A</field>
+        <field name="SPN">478-1573-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x02_Counter_Clockwise" description="Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FC4A1CA</tstamp>
+      <tstamp>5FB8F6AE</tstamp>
     </comp>
-    <comp ref="TP5">
+    <comp ref="JTAG1">
+      <value>HTST-105-01-T-DV</value>
+      <footprint>Connector_Samtec_HLE_THT:Samtec_HLE-105-02-xx-DV-TE_2x05_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">samtec</field>
+        <field name="MPN">HTST-105-01-T-DV</field>
+        <field name="SPN">SAM9518-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBEBB1A</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD13685</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD13E6C</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD1451D</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD14AAC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGCQ0603J100K</field>
+        <field name="SPN">A130103CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB9D72B</tstamp>
+    </comp>
+    <comp ref="3V3_SW1">
       <value>3v3_SW</value>
       <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FCB3A79</tstamp>
     </comp>
-    <comp ref="TP4">
+    <comp ref="12V_SW1">
       <value>12v_SW</value>
       <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FCB3260</tstamp>
     </comp>
-    <comp ref="TP3">
+    <comp ref="3V3_PWGD1">
       <value>3v3_PWGD</value>
       <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FCAFCCD</tstamp>
     </comp>
-    <comp ref="TP2">
+    <comp ref="12v_PWGD1">
       <value>12v_PWGD</value>
       <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FCAF31B</tstamp>
@@ -291,6 +418,11 @@
       <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">718-2350-2-ND</field>
+        <field name="MFR">vishay</field>
+        <field name="MPN">TMCHC1C476MTRF</field>
+        <field name="SPN">718-2350-2-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
@@ -298,16 +430,30 @@
     </comp>
     <comp ref="C19">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KRX7R7BB104</field>
+        <field name="SPN">311-1142-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBEF889</tstamp>
     </comp>
     <comp ref="C20">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KRX7R7BB104</field>
+        <field name="SPN">311-1142-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBE89B4</tstamp>
@@ -316,6 +462,13 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="SPN">311-1456-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBC77A1</tstamp>
@@ -324,6 +477,13 @@
       <value>5pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0603CRNPO9BN5R0</field>
+        <field name="SPN">311-1054-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBC778B</tstamp>
@@ -332,6 +492,13 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGCQ0603J100K</field>
+        <field name="SPN">A130103CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBC777B</tstamp>
@@ -340,15 +507,28 @@
       <value>43.2K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">RC0603FR-0743K2L</field>
+        <field name="SPN">311-43.2KHRCT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBC7775</tstamp>
     </comp>
     <comp ref="L2">
       <value>8.2uH</value>
-      <datasheet>~https://www.bourns.com/docs/Product-Datasheets/SRR1260A.pdf</datasheet>
+      <footprint>Inductor_SMD:L_Bourns_PM42S</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/pm42s_series.pdf</datasheet>
       <fields>
-        <field name="DIGIKEY">SRR1260A-8R2YTR-ND</field>
+        <field name="DIGIKEY">PM42S-8R2-ND</field>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
@@ -356,16 +536,30 @@
     </comp>
     <comp ref="C15">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KRX7R7BB104</field>
+        <field name="SPN">311-1142-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBC7762</tstamp>
     </comp>
     <comp ref="C11">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">avx</field>
+        <field name="MPN">1206YD106KAT2A</field>
+        <field name="SPN">478-1573-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBC7745</tstamp>
@@ -376,6 +570,11 @@
       <datasheet>http://www.ti.com/lit/ds/symlink/lmr33610.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">296-LMR33640ADDARTR-ND</field>
+        <field name="MFR">ti</field>
+        <field name="MPN">LMR33610ADDAR</field>
+        <field name="SPN">296-LMR33610ADDARCT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Regulator_Switching" part="LMR33610ADDAR" description="Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
@@ -385,6 +584,13 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="SPN">311-1456-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBB04C9</tstamp>
@@ -393,6 +599,13 @@
       <value>10pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0603JRNPO9BN100 </field>
+        <field name="SPN">311-1058-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBA94C8</tstamp>
@@ -401,6 +614,13 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGCQ0603J100K</field>
+        <field name="SPN">A130103CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBA5ADC</tstamp>
@@ -409,15 +629,28 @@
       <value>9.09K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Stackpole Electronics Inc</field>
+        <field name="MPN">RNCP0603FTD9K09</field>
+        <field name="SPN">RNCP0603FTD9K09CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBA4C10</tstamp>
     </comp>
     <comp ref="L1">
       <value>22uH</value>
-      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf</datasheet>
+      <footprint>Inductor_SMD:L_Bourns-SRN1060</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRN1060.pdf</datasheet>
       <fields>
-        <field name="DIGIKEY">SRR1208-220MLTR-ND</field>
+        <field name="DIGIKEY">SRN1060-220MTR-ND</field>
+        <field name="MFR">bourns</field>
+        <field name="MPN">SRN1060-220M</field>
+        <field name="SPN">SRN1060-220MCT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
@@ -425,59 +658,90 @@
     </comp>
     <comp ref="C14">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KRX7R7BB104</field>
+        <field name="SPN">311-1142-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBA2265</tstamp>
     </comp>
     <comp ref="C10">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">avx</field>
+        <field name="MPN">1206YD106KAT2A</field>
+        <field name="SPN">478-1573-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FBA09AD</tstamp>
     </comp>
-    <comp ref="U2">
-      <value>LMR33640ADDA</value>
-      <footprint>SOIC:PowerPad-SOIC-8</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lmr33640.pdf</datasheet>
-      <fields>
-        <field name="DIGIKEY">296-LMR33640ADDARTR-ND</field>
-      </fields>
-      <libsource lib="Regulator_Switching" part="LMR33640ADDA" description="Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=400kHz, Adjustable output voltage, HSOP-8"/>
-      <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
-      <tstamp>5FB9ABF1</tstamp>
-    </comp>
     <comp ref="C8">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KRX7R7BB104</field>
+        <field name="SPN">311-1142-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FB68B7A</tstamp>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KRX7R7BB104</field>
+        <field name="SPN">311-1142-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FB697FA</tstamp>
     </comp>
     <comp ref="C9">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KRX7R7BB104</field>
+        <field name="SPN">311-1142-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FB6A19E</tstamp>
     </comp>
     <comp ref="C7">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KRX7R7BB104</field>
+        <field name="SPN">311-1142-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FB6A9EF</tstamp>
@@ -488,6 +752,11 @@
       <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">718-2350-2-ND</field>
+        <field name="MFR">vishay</field>
+        <field name="MPN">TMCHC1C476MTRF</field>
+        <field name="SPN">718-2350-2-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
@@ -499,31 +768,76 @@
       <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">718-2350-2-ND</field>
+        <field name="MFR">vishay</field>
+        <field name="MPN">TMCHC1C476MTRF</field>
+        <field name="SPN">718-2350-2-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
       <tstamp>5FB7D705</tstamp>
     </comp>
-    <comp ref="SW2">
-      <value>Rotary_Encoder_Switch</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
-      <sheetpath names="/User Interface/" tstamps="/5FD10DB5/"/>
-      <tstamp>5FD116B2</tstamp>
+    <comp ref="U2">
+      <value>LMR33640ADDA</value>
+      <footprint>SOIC:PowerPad-SOIC-8</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmr33640.pdf</datasheet>
+      <fields>
+        <field name="DIGIKEY">296-LMR33640ADDARTR-ND</field>
+        <field name="MFR">ti</field>
+        <field name="MPN">LMR33640ADDAR</field>
+        <field name="SPN">296-LMR33640ADDARCT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="LMR33640ADDA" description="Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=400kHz, Adjustable output voltage, HSOP-8"/>
+      <sheetpath names="/Power Supply/" tstamps="/5FB9A7A3/"/>
+      <tstamp>5FB9ABF1</tstamp>
     </comp>
     <comp ref="SW1">
-      <value>SW_SPDT</value>
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <fields>
+        <field name="MFR">C&amp;K</field>
+        <field name="MPN">KMR231GLFS</field>
+        <field name="SPN">401-1429-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
       <sheetpath names="/User Interface/" tstamps="/5FD10DB5/"/>
       <tstamp>5FD13FFB</tstamp>
     </comp>
-    <comp ref="SW3">
-      <value>Rotary_Encoder_Switch</value>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGP0603F10K</field>
+        <field name="SPN">A130428CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/User Interface/" tstamps="/5FD10DB5/"/>
-      <tstamp>5FBD6B51</tstamp>
+      <tstamp>5FC5F977</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x04_Odd_Even</value>
+      <footprint>Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">jst</field>
+        <field name="MPN">BM08B-SRSS-TB(LF)(SN)</field>
+        <field name="SPN">455-1794-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/User Interface/" tstamps="/5FD10DB5/"/>
+      <tstamp>5FC624FD</tstamp>
     </comp>
     <comp ref="Q1">
       <value>BC847C</value>
@@ -531,6 +845,11 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">1727-2924-2-ND</field>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
       <sheetpath names="/TX LED/" tstamps="/5FBC8641/"/>
@@ -542,6 +861,11 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="DIGIKEY">475-2488-2-ND</field>
+        <field name="MFR">osram</field>
+        <field name="MPN">LH R974-LP-1</field>
+        <field name="SPN">475-1415-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/TX LED/" tstamps="/5FBC8641/"/>
@@ -551,29 +875,61 @@
       <value>33R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">RT0805FRE0733RL</field>
+        <field name="SPN">13-RT0805FRE0733RLCT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/TX LED/" tstamps="/5FBC8641/"/>
       <tstamp>5FBC9BAB</tstamp>
     </comp>
+    <comp ref="ESP_TX1">
+      <value>TX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/TX LED/" tstamps="/5FBC8641/"/>
+      <tstamp>5FBCF1B4</tstamp>
+    </comp>
     <comp ref="Q2">
-      <value>Q_NMOS_GSD</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <value>DMN3010LK3</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/DMN3010LK3.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">DMN3010LK3-13-ND</field>
+        <field name="MFR">diodes incorperated</field>
+        <field name="MPN">DMN3010LK3-13</field>
+        <field name="SPN">DMN3010LK3-13-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB12</tstamp>
     </comp>
     <comp ref="Q3">
-      <value>Q_NMOS_GSD</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <value>DMN3010LK3</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/DMN3010LK3.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">DMN3010LK3-13-ND</field>
+        <field name="MFR">diodes incorperated</field>
+        <field name="MPN">DMN3010LK3-13</field>
+        <field name="SPN">DMN3010LK3-13-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB18</tstamp>
     </comp>
@@ -583,6 +939,11 @@
       <datasheet>http://www.intersil.com/content/dam/Intersil/documents/el72/el7202-12-22.pdf</datasheet>
       <fields>
         <field name="DIGIKEY">EL7202CSZ-T7TR-ND</field>
+        <field name="MFR">renesas</field>
+        <field name="MPN">EL7202CSZ</field>
+        <field name="SPN">EL7202CSZ-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Driver_FET" part="EL7202CN" description="High Speed, Dual Channel Power MOSFET Driver, DIP-8/SOIC-8"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
@@ -592,6 +953,13 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGCQ0603J100K</field>
+        <field name="SPN">A130103CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB48</tstamp>
@@ -600,6 +968,13 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGCQ0603J100K</field>
+        <field name="SPN">A130103CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB50</tstamp>
@@ -608,6 +983,13 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGP0603F1K0</field>
+        <field name="SPN">A130416CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB5F</tstamp>
@@ -616,6 +998,13 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">CRGP0603F1K0</field>
+        <field name="SPN">A130416CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB66</tstamp>
@@ -624,6 +1013,13 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="SPN">311-1456-1-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB6F</tstamp>
@@ -632,34 +1028,42 @@
       <value>FET_DRV_VIN</value>
       <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB86</tstamp>
     </comp>
     <comp ref="TP7">
-      <value>CH1_FET_DRV</value>
+      <value>CH1_FET_G</value>
       <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FCDDB8F</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>POWER OUT</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="DIGIKEY">WM1790-ND</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x02_Counter_Clockwise" description="Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
-      <tstamp>5FC310BE</tstamp>
     </comp>
     <comp ref="TH1">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="DIGIKEY">490-2456-2-ND</field>
+        <field name="MFR">Stackpole Electronics Inc</field>
+        <field name="MPN">RNCP0805FTD10K0</field>
+        <field name="SPN">RNCP0805FTD10K0CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
@@ -667,13 +1071,106 @@
     </comp>
     <comp ref="R18">
       <value>10K</value>
-      <datasheet>~</datasheet>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFR">Stackpole Electronics Inc</field>
+        <field name="MPN">RNCP0805FTD10K0</field>
+        <field name="SPN">RNCP0805FTD10K0CT-ND</field>
+        <field name="SPR">digi</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
       <tstamp>5FC5DD01</tstamp>
     </comp>
+    <comp ref="TP8">
+      <value>CH1_FET_D</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
+      <tstamp>5FBCBAED</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>CH1_FET_SIG</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
+      <tstamp>5FBCD2D5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Female</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
+      <tstamp>5FD079FF</tstamp>
+    </comp>
+    <comp ref="HS2">
+      <value>Thermal Wick</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Heatsink_Pad_2Pin" description="Heatsink with electrical connection, 2 pin"/>
+      <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
+      <tstamp>5FD5598F</tstamp>
+    </comp>
+    <comp ref="HS1">
+      <value>Thermal Wick</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Heatsink_Pad_2Pin" description="Heatsink with electrical connection, 2 pin"/>
+      <sheetpath names="/MOSFET_DRIVE/" tstamps="/5FCD8294/"/>
+      <tstamp>5FD56944</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="TestPoint_Small">
       <description>test point</description>
       <docs>~</docs>
@@ -689,15 +1186,15 @@
         <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x02_Counter_Clockwise">
-      <description>Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*_2x??_*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x02_Counter_Clockwise</field>
+        <field name="Value">Conn_01x04</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -706,15 +1203,15 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x03_Counter_Clockwise">
-      <description>Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_2x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x03_Counter_Clockwise</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -723,6 +1220,31 @@
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
         <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -793,17 +1315,17 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Q_NMOS_GSD">
-      <description>N-MOSFET transistor, gate/source/drain</description>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
       <docs>~</docs>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Value">Q_NMOS_GDS</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="Q_NPN_BCE">
@@ -832,24 +1354,6 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="Rotary_Encoder_Switch">
-      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>RotaryEncoder*Switch*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">Rotary_Encoder_Switch</field>
-      </fields>
-      <pins>
-        <pin num="A" name="A" type="passive"/>
-        <pin num="B" name="B" type="passive"/>
-        <pin num="C" name="C" type="passive"/>
-        <pin num="S1" name="S1" type="passive"/>
-        <pin num="S2" name="S2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="Thermistor_NTC">
@@ -896,6 +1400,35 @@
         <pin num="6" name="V+" type="power_in"/>
         <pin num="7" name="OUT_A" type="output"/>
         <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink_Pad_2Pin">
+      <description>Heatsink with electrical connection, 2 pin</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink_Pad_2Pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
     <libpart lib="RF_Module" part="ESP32-WROOM-32">
@@ -988,17 +1521,16 @@
         <pin num="9" name="AGND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Switch" part="SW_SPDT">
-      <description>Switch, single pole double throw</description>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
       <docs>~</docs>
       <fields>
         <field name="Reference">SW</field>
-        <field name="Value">SW_SPDT</field>
+        <field name="Value">SW_SPST</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="B" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -1015,6 +1547,9 @@
     <library logical="Driver_FET">
       <uri>C:\Program Files\KiCad\share\kicad\library/Driver_FET.lib</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
     <library logical="RF_Module">
       <uri>C:\Program Files\KiCad\share\kicad\library/RF_Module.lib</uri>
     </library>
@@ -1026,353 +1561,337 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="C21" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="J3" pin="5"/>
-      <node ref="U1" pin="15"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U3" pin="9"/>
-      <node ref="U1" pin="39"/>
-      <node ref="C4" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="U1" pin="38"/>
-      <node ref="R5" pin="2"/>
-      <node ref="SW3" pin="C"/>
-      <node ref="U4" pin="3"/>
-      <node ref="J4" pin="5"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="SW2" pin="C"/>
-      <node ref="SW1" pin="3"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="U3" pin="2"/>
-      <node ref="TH1" pin="2"/>
-      <node ref="R17" pin="2"/>
-      <node ref="R16" pin="2"/>
-      <node ref="C23" pin="1"/>
-      <node ref="Q1" pin="3"/>
+    <net code="1" name="ESP_SLP_L">
+      <node ref="U1" pin="12"/>
+      <node ref="R8" pin="2"/>
+      <node ref="SW1" pin="1"/>
     </net>
-    <net code="2" name="Net-(J2-Pad4)">
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="3" name="Net-(J2-Pad3)">
+    <net code="2" name="ROT1_A">
       <node ref="J2" pin="3"/>
+      <node ref="U1" pin="9"/>
     </net>
-    <net code="4" name="OLED_SCL">
-      <node ref="R2" pin="2"/>
+    <net code="3" name="ROT2_A">
+      <node ref="U1" pin="28"/>
       <node ref="J2" pin="5"/>
-      <node ref="U1" pin="21"/>
     </net>
-    <net code="5" name="Net-(R6-Pad2)">
+    <net code="4" name="ROT2_B">
+      <node ref="J2" pin="6"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="5" name="BTN_SEL_2">
+      <node ref="J2" pin="7"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="6" name="CH1_SIG_R">
+      <node ref="U4" pin="2"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="7" name="BTN_SEL_1">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="8" name="ROT1_B">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="9" name="CH2_SIG_R">
+      <node ref="U4" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="10" name="/VDD_SENSE_R">
       <node ref="U1" pin="24"/>
       <node ref="R6" pin="2"/>
       <node ref="R7" pin="1"/>
     </net>
-    <net code="6" name="Net-(D1-Pad1)">
+    <net code="11" name="/VDD_SENSE">
       <node ref="R6" pin="1"/>
       <node ref="D1" pin="1"/>
     </net>
-    <net code="7" name="OLED_SDA">
-      <node ref="U1" pin="22"/>
-      <node ref="R1" pin="2"/>
-      <node ref="J2" pin="6"/>
+    <net code="12" name="TEMP_FB">
+      <node ref="TH1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R18" pin="2"/>
     </net>
-    <net code="8" name="TDI">
-      <node ref="J4" pin="4"/>
+    <net code="13" name="VDD">
+      <node ref="U3" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="14" name="TDI">
+      <node ref="JTAG1" pin="8"/>
       <node ref="U1" pin="14"/>
     </net>
-    <net code="9" name="TCK">
-      <node ref="J4" pin="2"/>
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="10" name="TDO">
+    <net code="15" name="TDO">
+      <node ref="JTAG1" pin="6"/>
       <node ref="U1" pin="23"/>
-      <node ref="J4" pin="3"/>
     </net>
-    <net code="11" name="TMS">
-      <node ref="J4" pin="1"/>
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="12" name="ESP_RX">
-      <node ref="J3" pin="3"/>
-    </net>
-    <net code="13" name="ESP_TX">
-      <node ref="J3" pin="2"/>
-    </net>
-    <net code="14" name="CH1_SIG">
-      <node ref="R3" pin="1"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="15" name="12v_EN">
-      <node ref="R5" pin="1"/>
-      <node ref="U1" pin="7"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="16" name="CH2_SIG">
-      <node ref="U4" pin="4"/>
-      <node ref="R4" pin="1"/>
-    </net>
-    <net code="17" name="+3V3">
-      <node ref="R18" pin="1"/>
-      <node ref="L2" pin="2"/>
-      <node ref="D2" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="C18" pin="1"/>
-      <node ref="SW2" pin="S1"/>
-      <node ref="J3" pin="6"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="J4" pin="6"/>
-      <node ref="C19" pin="1"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="18" name="ROT2_B">
-      <node ref="SW3" pin="B"/>
-      <node ref="U1" pin="33"/>
-    </net>
-    <net code="19" name="ROT2_A">
-      <node ref="U1" pin="36"/>
-      <node ref="SW3" pin="A"/>
-    </net>
-    <net code="20" name="BTN_SEL_2">
-      <node ref="SW3" pin="S2"/>
-      <node ref="U1" pin="37"/>
-    </net>
-    <net code="21" name="TEMP_FB">
-      <node ref="TH1" pin="1"/>
-      <node ref="R18" pin="2"/>
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="22" name="BTN_SEL_1">
-      <node ref="U1" pin="6"/>
-      <node ref="SW2" pin="S2"/>
-    </net>
-    <net code="23" name="ROT1_B">
-      <node ref="U1" pin="8"/>
-      <node ref="SW2" pin="B"/>
-    </net>
-    <net code="24" name="ROT1_A">
-      <node ref="SW2" pin="A"/>
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="25" name="VDD">
-      <node ref="TP1" pin="1"/>
-      <node ref="U3" pin="3"/>
-      <node ref="J5" pin="2"/>
-      <node ref="J5" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="26" name="ESP_EN">
-      <node ref="U3" pin="4"/>
-      <node ref="U1" pin="3"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="TP3" pin="1"/>
-    </net>
-    <net code="27" name="Net-(U1-Pad5)">
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="28" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="29" name="ESP_RXD">
-      <node ref="U1" pin="34"/>
-    </net>
-    <net code="30" name="Net-(U1-Pad32)">
-      <node ref="U1" pin="32"/>
-    </net>
-    <net code="31" name="12v_PWGD">
-      <node ref="U1" pin="31"/>
-      <node ref="TP2" pin="1"/>
+    <net code="16" name="12v_PWGD">
+      <node ref="12v_PWGD1" pin="1"/>
       <node ref="U2" pin="4"/>
+      <node ref="U1" pin="31"/>
     </net>
-    <net code="32" name="Net-(R4-Pad2)">
-      <node ref="R4" pin="2"/>
-      <node ref="U1" pin="11"/>
+    <net code="17" name="3V3_PWGD">
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="4"/>
+      <node ref="3V3_PWGD1" pin="1"/>
     </net>
-    <net code="33" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="10"/>
+    <net code="18" name="OLED_SDA">
+      <node ref="U1" pin="33"/>
+      <node ref="R2" pin="2"/>
+      <node ref="OLED1" pin="3"/>
     </net>
-    <net code="34" name="Net-(U1-Pad12)">
-      <node ref="U1" pin="12"/>
+    <net code="19" name="12v_EN">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="30"/>
+      <node ref="R5" pin="1"/>
     </net>
-    <net code="35" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
+    <net code="20" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
     </net>
-    <net code="36" name="Net-(U1-Pad29)">
-      <node ref="U1" pin="29"/>
+    <net code="21" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
     </net>
-    <net code="37" name="Net-(U1-Pad28)">
-      <node ref="U1" pin="28"/>
+    <net code="22" name="OLED_SCL">
+      <node ref="OLED1" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="36"/>
     </net>
-    <net code="38" name="Net-(U1-Pad27)">
-      <node ref="U1" pin="27"/>
+    <net code="23" name="ESP_RX">
+      <node ref="U1" pin="34"/>
+      <node ref="JTAG1" pin="7"/>
     </net>
-    <net code="39" name="Net-(U1-Pad26)">
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="40" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="41" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="42" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="43" name="ESP_TXD">
-      <node ref="Q1" pin="1"/>
-      <node ref="U1" pin="35"/>
-    </net>
-    <net code="44" name="ESP_BOOT_L">
-      <node ref="J3" pin="4"/>
+    <net code="24" name="ESP_BOOT_L">
+      <node ref="JTAG1" pin="3"/>
       <node ref="U1" pin="25"/>
     </net>
-    <net code="45" name="Net-(J3-Pad1)">
-      <node ref="J3" pin="1"/>
+    <net code="25" name="+3V3">
+      <node ref="R18" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="OLED1" pin="2"/>
       <node ref="R8" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="JTAG1" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="46" name="Net-(C16-Pad2)">
-      <node ref="R9" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="U2" pin="5"/>
+    <net code="26" name="ESP_EN">
+      <node ref="JTAG1" pin="10"/>
     </net>
-    <net code="47" name="Net-(C14-Pad2)">
-      <node ref="TP4" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="L1" pin="1"/>
-      <node ref="U2" pin="8"/>
+    <net code="27" name="TCK">
+      <node ref="JTAG1" pin="4"/>
+      <node ref="U1" pin="16"/>
     </net>
-    <net code="48" name="+12V">
-      <node ref="C22" pin="1"/>
-      <node ref="U4" pin="6"/>
-      <node ref="C16" pin="1"/>
-      <node ref="TP6" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="C20" pin="1"/>
-      <node ref="C23" pin="2"/>
-      <node ref="L1" pin="2"/>
-      <node ref="R11" pin="1"/>
+    <net code="28" name="TMS">
+      <node ref="JTAG1" pin="2"/>
+      <node ref="U1" pin="13"/>
     </net>
-    <net code="49" name="Net-(C14-Pad1)">
+    <net code="29" name="/CH2_SIG">
+      <node ref="U1" pin="11"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="30" name="/CH1_SIG">
+      <node ref="U1" pin="10"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="31" name="ESP_TX">
+      <node ref="U1" pin="35"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="JTAG1" pin="5"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="41" name="GND">
+      <node ref="U2" pin="1"/>
+      <node ref="J2" pin="8"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="HS2" pin="2"/>
+      <node ref="HS1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="TH1" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="JTAG1" pin="9"/>
+      <node ref="OLED1" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U1" pin="39"/>
+      <node ref="R5" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="42" name="/Power Supply/12V_CBOOT">
       <node ref="U2" pin="7"/>
       <node ref="C14" pin="1"/>
     </net>
-    <net code="50" name="Net-(C12-Pad1)">
-      <node ref="U2" pin="6"/>
-      <node ref="C12" pin="1"/>
-    </net>
-    <net code="51" name="Net-(U2-Pad1)">
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="52" name="Net-(U2-Pad9)">
-      <node ref="U2" pin="9"/>
-    </net>
-    <net code="53" name="Net-(C15-Pad2)">
-      <node ref="TP5" pin="1"/>
-      <node ref="C15" pin="2"/>
-      <node ref="L2" pin="1"/>
-      <node ref="U3" pin="8"/>
-    </net>
-    <net code="54" name="Net-(C15-Pad1)">
+    <net code="43" name="/Power Supply/3V3_CBOOT">
       <node ref="U3" pin="7"/>
       <node ref="C15" pin="1"/>
     </net>
-    <net code="55" name="Net-(C13-Pad1)">
-      <node ref="U3" pin="6"/>
-      <node ref="C13" pin="1"/>
+    <net code="44" name="+12V">
+      <node ref="TP6" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C16" pin="1"/>
     </net>
-    <net code="56" name="Net-(U3-Pad1)">
-      <node ref="U3" pin="1"/>
+    <net code="45" name="/Power Supply/12V_SW">
+      <node ref="U2" pin="8"/>
+      <node ref="12V_SW1" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C14" pin="2"/>
     </net>
-    <net code="57" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2"/>
+    <net code="46" name="/Power Supply/12V_FB">
+      <node ref="U2" pin="5"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="47" name="/Power Supply/3V3_FB">
       <node ref="U3" pin="5"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R12" pin="1"/>
       <node ref="R10" pin="2"/>
     </net>
-    <net code="58" name="Net-(D2-Pad1)">
-      <node ref="R13" pin="1"/>
-      <node ref="D2" pin="1"/>
+    <net code="48" name="/Power Supply/3V3_SW">
+      <node ref="U3" pin="8"/>
+      <node ref="3V3_SW1" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C15" pin="2"/>
     </net>
-    <net code="59" name="Net-(Q1-Pad2)">
+    <net code="49" name="/Power Supply/3v3_5V_LDO">
+      <node ref="C13" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="50" name="/Power Supply/12V_5V_LDO">
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="51" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="52" name="/TX LED/ESP_TX_BUFF">
       <node ref="R13" pin="2"/>
       <node ref="Q1" pin="2"/>
+      <node ref="ESP_TX1" pin="1"/>
     </net>
-    <net code="60" name="Net-(R15-Pad2)">
-      <node ref="R15" pin="2"/>
-      <node ref="U4" pin="5"/>
+    <net code="53" name="/MOSFET_DRIVE/CH2_FET_DRV_R">
+      <node ref="Q3" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R17" pin="1"/>
     </net>
-    <net code="61" name="Net-(J5-Pad4)">
-      <node ref="Q3" pin="3"/>
-      <node ref="J5" pin="4"/>
-    </net>
-    <net code="62" name="/MOSFET_DRIVE/CH1_FET_DRV">
+    <net code="54" name="/MOSFET_DRIVE/CH1_FET_DRV_R">
+      <node ref="TP7" pin="1"/>
       <node ref="R14" pin="1"/>
       <node ref="Q2" pin="1"/>
       <node ref="R16" pin="1"/>
-      <node ref="TP7" pin="1"/>
     </net>
-    <net code="63" name="Net-(J5-Pad3)">
-      <node ref="Q2" pin="3"/>
-      <node ref="J5" pin="3"/>
+    <net code="55" name="/MOSFET_DRIVE/CH2_FET_DRV">
+      <node ref="U4" pin="5"/>
+      <node ref="R15" pin="2"/>
     </net>
-    <net code="64" name="Net-(U4-Pad1)">
+    <net code="56" name="/MOSFET_DRIVE/CH1_FET_DRV">
+      <node ref="U4" pin="7"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="57" name="LED_L_2">
+      <node ref="J1" pin="4"/>
+      <node ref="HS1" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="58" name="LED_L_1">
+      <node ref="TP8" pin="1"/>
+      <node ref="HS2" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="59" name="Net-(U4-Pad1)">
       <node ref="U4" pin="1"/>
     </net>
-    <net code="65" name="/MOSFET_DRIVE/CH2_FET_DRV">
-      <node ref="Q3" pin="1"/>
-      <node ref="R17" pin="1"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="66" name="Net-(U4-Pad8)">
+    <net code="60" name="Net-(U4-Pad8)">
       <node ref="U4" pin="8"/>
-    </net>
-    <net code="67" name="Net-(R14-Pad2)">
-      <node ref="R14" pin="2"/>
-      <node ref="U4" pin="7"/>
-    </net>
-    <net code="68" name="Net-(SW3-PadS1)">
-      <node ref="SW3" pin="S1"/>
     </net>
   </nets>
 </export>
